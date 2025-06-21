@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tanjin Adnan Abir - Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7f9;
+      color: #333;
+      transition: background 0.3s, color 0.3s;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      transition: background 0.3s, color 0.3s;
+    }
+    h1, h2 {
+      color: #1a73e8;
+      transition: color 0.3s;
+    }
+    h1 {
+      margin-bottom: 5px;
+      font-size: 48px;
+    }
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    .header {
+      text-align: center;
+    }
+    .header p {
+      font-size: 24px;
+    }
+    .contact {
+      margin-top: 10px;
+      text-align: center;
+    }
+    .contact p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+    .contact i {
+      margin-right: 8px;
+      color: #1a73e8;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .skills span {
+      display: inline-block;
+      background: #e8f0fe;
+      color: #1a73e8;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 14px;
+      transition: background 0.3s, color 0.3s;
+    }
+    .toggle-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #1a73e8;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 20px;
+      transition: background 0.3s, color 0.3s, transform 0.3s;
+    }
+    .toggle-btn:hover {
+      transform: rotate(20deg);
+    }
+    body.dark-mode {
+      background: #121212;
+      color: #ddd;
+    }
+    body.dark-mode .container {
+      background: #1e1e1e;
+      color: #ddd;
+    }
+    body.dark-mode h1, body.dark-mode h2 {
+      color: #90caf9;
+    }
+    body.dark-mode .skills span {
+      background: #333;
+      color: #90caf9;
+    }
+    body.dark-mode .toggle-btn {
+      background: #333;
+      color: #90caf9;
+    }
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+      transition: color 0.3s, transform 0.3s;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #0c47a1;
+      transform: scale(1.05);
+    }
+    .project-thumbnail {
+      display: block;
+      max-width: 100%;
+      margin: 10px 0;
+      border-radius: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project-thumbnail:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-btn" onclick="toggleMode()" id="themeToggle">☀️</button>
+  <div class="container">
+    <div class="header">
+      <h1>Tanjin Adnan Abir</h1>
+      <p><strong>Digital Marketing | Web Design & Development | Graphic Design</strong></p>
+
+      <div class="contact">
+        <p>
+          <i class="fas fa-mobile"></i> <a href="tel:+8801729335233">+880 1729 335233</a> &nbsp; | &nbsp;&nbsp;
+          <i class="fas fa-envelope"></i> <a href="mailto:abirtanjinadnan@gmail.com">abirtanjinadnan@gmail.com</a> &nbsp; | &nbsp;&nbsp;
+          <i class="fas fa-globe"></i> <a href="https://www.tanjinadnanabir.com" target="_blank">Website</a> &nbsp; | &nbsp;&nbsp;
+          <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/abirtanjinadnan" target="_blank">LinkedIn</a> &nbsp; | &nbsp;&nbsp;
+          <i class="fab fa-github"></i> <a href="https://github.com/abirtanjinadnan" target="_blank">GitHub</a> &nbsp; 
+          <br><br>
+          <i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh
+        </p>
+      </div>
+      
+      <!-- <div class="contact">
+        <p><i class="fas fa-mobile"></i> +880 1729 335233</p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:abirtanjinadnan@gmail.com">abirtanjinadnan@gmail.com</a></p>
+        <p><i class="fas fa-globe"></i> <a href="https://www.tanjinadnanabir.com" target="_blank">www.tanjinadnanabir.com</a></p>
+        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/abirtanjinadnan" target="_blank">LinkedIn</a></p>
+        <p><i class="fab fa-github"></i> <a href="https://github.com/abirtanjinadnan" target="_blank">GitHub</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</p>
+      </div> -->
+    </div>
+
+    <!-- The rest of your sections remain unchanged -->
+
+    <h2>About Me</h2>
+    <p>I am a passionate and results-driven Digital Marketing and Web Design and Development expert with proven experience in SEO, social media marketing, content marketing, responsive website design, and modern web development. I help businesses grow online and create stunning digital experiences.</p>
+
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>SEO Optimization</span>
+      <span>Social Media Marketing</span>
+      <span>Google Ads</span>
+      <span>WordPress Development</span>
+      <span>HTML & CSS</span>
+      <span>JavaScript</span>
+      <span>UI/UX Design</span>
+      <span>Responsive Web Design</span>
+      <span>Email Marketing</span>
+    </div>
+
+    <h2>Experience</h2>
+    <div class="section">
+      <h3>Senior Digital Marketing Specialist</h3>
+      <p><strong>Freelance | 2020 - Present</strong></p>
+      <ul>
+        <li>Developed and executed SEO strategies for international clients.</li>
+        <li>Managed advertising campaigns on Google Ads and social media.</li>
+        <li>Designed and optimized WordPress websites for clients in various industries.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Web Designer & Developer</h3>
+      <p><strong>Freelance | 2018 - Present</strong></p>
+      <ul>
+        <li>Designed custom, responsive websites using HTML, CSS, JavaScript, and WordPress.</li>
+        <li>Created visually engaging UI/UX designs tailored to client needs.</li>
+        <li>Integrated SEO and marketing tools into websites to boost online presence.</li>
+      </ul>
+    </div>
+
+    <h2>Project Experience</h2>
+    <div class="section">
+      <h3><a href="https://example.com/project1" target="_blank">Portfolio Website for Creative Agency</a></h3>
+      <img src="https://via.placeholder.com/800x400?text=Creative+Agency+Portfolio" alt="Creative Agency Portfolio" class="project-thumbnail"/>
+      <p>Designed and developed a sleek, modern portfolio website for a creative agency using HTML, CSS, and JavaScript with integrated animations and contact forms.</p>
+
+      <h3><a href="https://example.com/project2" target="_blank">E-commerce Storefront</a></h3>
+      <img src="https://via.placeholder.com/800x400?text=E-commerce+Storefront" alt="E-commerce Storefront" class="project-thumbnail"/>
+      <p>Built a fully responsive e-commerce site on WordPress with WooCommerce integration, SEO optimization, and payment gateway setup for a local fashion brand.</p>
+
+      <h3><a href="https://example.com/project3" target="_blank">SEO Campaign for Tech Blog</a></h3>
+      <img src="https://via.placeholder.com/800x400?text=SEO+Tech+Blog+Campaign" alt="SEO Campaign for Tech Blog" class="project-thumbnail"/>
+      <p>Launched a comprehensive SEO and digital marketing campaign for a tech blog, increasing organic traffic by 150% within 6 months through keyword optimization, content strategy, and backlink building.</p>
+    </div>
+
+    <h2>Education</h2>
+    <p><strong>Master of Science in Physics</strong></p>
+    <p>Jahangirnagar University, Dhaka | 2021 - 2023</p>
+
+    <h2>Contact Me</h2>
+    <p>If you'd like to collaborate or hire me, feel free to reach out through the contact details above or visit my website!</p>
+  </div>
+
+  <script>
+    const toggleButton = document.getElementById('themeToggle');
+
+    function setTheme(isDark) {
+      document.body.classList.toggle('dark-mode', isDark);
+      toggleButton.textContent = isDark ? '🌙' : '☀️';
+      localStorage.setItem('darkMode', isDark);
+    }
+
+    function toggleMode() {
+      const isDark = !document.body.classList.contains('dark-mode');
+      setTheme(isDark);
+    }
+
+    window.onload = () => {
+      const darkMode = localStorage.getItem('darkMode') === 'true';
+      setTheme(darkMode);
+    };
+  </script>
+</body>
+</html>
